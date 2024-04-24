@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.title{
+    margin-top: 1px;
+    font-size: 60px;
+    font-family:'Trebuchet MS';
+    background-image:url(./textb.jpg);
+    background-size: contain;
+    background-clip: text;
+    color: transparent;
+}
+header{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+}
+.middle{
+    width: 100%;
+    height: 93%;
+    background-color: rgb(255, 255, 255);
+position: absolute;
+right: 0;
+}
+.csname{
+   display: flex;
+   /* border: 1px solid; */
+   margin-left: 8px;
+   width: 800px;
+padding-top: 25px;
+justify-content: space-between;
+}
+.csname p{
+    font-size: 23px;
+    /* border: 1px solid red; */
+    height: 33px;
+    font-weight: 500;
+    background: linear-gradient(to right,rgb(0, 84, 163),rgb(156, 243, 255));
+    background-clip: text;
+    color: transparent;
+    cursor:pointer;
+    transition: all ease 0.6s;
+}
+.csname p:hover{
+    scale: 1.1;
+}
+.csname p:active{
+transform: rotatey(360deg);
+}
+.sign{
+    background-color: rgb(0, 225, 255);
+    color: white;
+    width: 140px;
+    height: 40px;
+    margin: 23px 7px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    font-weight:700;
+    cursor:pointer;
+}
+.log{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:80px;
+    border-radius: 20px;
+    background-color: rgb(0, 89, 148);
+    transition: all ease 0.4s;
+}
+.log:active{
+    width: 240px;
+    transform: translatex(40px);
+    cursor: grabbing;
+}
+nav{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+nav p,span,div{
+    color: white;
+    display: inline-block;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navmiddle{
+    margin-left: 5vw;
+    /* border: 1x solid; */
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+.navmiddle p{
+    font-size: 20px;
+    color: rgb(0, 217, 255);
+    font-weight: 600;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    border-radius: 3px;
+    flex-grow: 1;
+    text-align: center;
+padding-bottom: 4px;
+}
+
+.navmiddle p:active{
+    scale: 1.2;
+}
+.navmiddle p:hover{
+    background-color: rgb(255, 255, 255);
+}
+input{
+    width: 250px;
+    height: 23px;
+    margin-left: 40px;
+    border-radius: 8px;
+background-color: rgb(54, 54, 54);
+color:white;
+font-size: 17px;
+border: 1px solid white;
+}
+a{
+    text-decoration: none;
+}
